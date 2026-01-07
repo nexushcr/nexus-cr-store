@@ -18,9 +18,22 @@ const NexusCRStore = () => {
 
   const products = {
     parlantes: [
-      { id: 1, name: 'Parlante Bluetooth JBL', price: 45000, image: '🔊', category: 'parlantes' },
-      { id: 2, name: 'Parlante Portátil Sony', price: 38000, image: '🔉', category: 'parlantes' },
-      { id: 3, name: 'Soundbar Premium', price: 75000, image: '📢', category: 'parlantes' },
+      { 
+        id: 1, 
+        name: 'XO-F55', 
+        price: 45176, 
+        image: '/productos/1.png', 
+        category: 'parlantes',
+        description: 'PARLANTE BLUETOOTH WOOFER DUAL XO-F55 8 PULGADAS RGB 20W'
+      },
+      { 
+        id: 2, 
+        name: 'PPB0168', 
+        price: 15300, 
+        image: '/productos/3.jpg', 
+        category: 'parlantes',
+        description: 'Altavoces Bluetooth Portátiles Con Luces Color Negro'
+      },
     ],
     telefonos: [
       { id: 4, name: 'Funda Premium iPhone', price: 8500, image: '📱', category: 'telefonos' },
@@ -324,8 +337,19 @@ const NexusCRStore = () => {
                   key={product.id}
                   className="bg-slate-800/50 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-500/50 transition-all hover:scale-105"
                 >
-                  <div className="text-6xl mb-4 text-center">{product.image}</div>
+                  {product.image.startsWith('/') ? (
+                    <img 
+                      src={product.image} 
+                      alt={product.name}
+                      className="w-full h-48 object-contain mb-4 rounded-lg"
+                    />
+                  ) : (
+                    <div className="text-6xl mb-4 text-center">{product.image}</div>
+                  )}
                   <h3 className="text-lg font-semibold text-white mb-2">{product.name}</h3>
+                  {product.description && (
+                    <p className="text-sm text-gray-400 mb-3 line-clamp-2">{product.description}</p>
+                  )}
                   <p className="text-2xl font-bold text-cyan-400 mb-4">
                     ₡{product.price.toLocaleString()}
                   </p>
