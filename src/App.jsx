@@ -32,7 +32,31 @@ const NexusCRStore = () => {
         price: 15300, 
         image: '/productos/3.jpg', 
         category: 'parlantes',
-        description: 'Altavoces Bluetooth Portátiles Con Luces Color Negro'
+        description: 'ALTAVOCES BLUETOOTH PORTÁTILES CON LUCES COLOR NEGRO'
+      },
+      { 
+        id: 3, 
+        name: 'PPB0156', 
+        price: 25574, 
+        image: '/productos/4.jpg', 
+        category: 'parlantes',
+        description: 'BOXE PORTABILE BLUETOOTH - WK DESIGN D33 BLACK'
+      },
+      { 
+        id: 4, 
+        name: 'PPB0171', 
+        price: 17780, 
+        image: '/productos/5.png', 
+        category: 'parlantes',
+        description: 'PARLANTE PORTATIL BLUETOOTH - WEKOME D8'
+      },
+      { 
+        id: 5, 
+        name: 'PPB0164', 
+        price: 11800, 
+        image: '/productos/6.jpg', 
+        category: 'parlantes',
+        description: 'ALTAVOZ INALAMBRICO PORTATIL AZEADA PD-S108 MEIKA'
       },
     ],
     telefonos: [
