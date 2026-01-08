@@ -48,7 +48,7 @@ const NexusCRStore = () => {
         price: 17780, 
         image: '/productos/5.png', 
         category: 'parlantes',
-        description: 'PARLANTE PORTATIL BLUETOOTH - WEKOME D8'
+        description: 'ALTAVOZ PORTATIL BLUETOOTH - WEKOME D8'
       },
       { 
         id: 5, 
@@ -57,6 +57,38 @@ const NexusCRStore = () => {
         image: '/productos/6.jpg', 
         category: 'parlantes',
         description: 'ALTAVOZ INALAMBRICO PORTATIL AZEADA PD-S108 MEIKA'
+      },
+      { 
+        id: 6, 
+        name: 'PPB0152', 
+        price: 29300, 
+        image: '/productos/7.png', 
+        category: 'parlantes',
+        description: 'ALTAVOZ WEKOME D57 BLUETOOTH SPEAKER - WEKOME'
+      },
+      { 
+        id: 7, 
+        name: 'PPB0155', 
+        price: 14200, 
+        image: '/productos/8.png', 
+        category: 'parlantes',
+        description: 'ALTAVOZ BLUETOOTH PORTÁTIL PULSE 4 MINI CON SONIDO 360º Y LUCES LED RGB'
+      },
+      { 
+        id: 8, 
+        name: 'PPB0154', 
+        price: 14300, 
+        image: '/productos/9.jpg', 
+        category: 'parlantes',
+        description: 'ALTAVOZ WEKOME D29 PORTABLE BLUETOOTH SPEAKER'
+      },
+      { 
+        id: 9, 
+        name: 'PPB0153', 
+        price: 15100, 
+        image: '/productos/10.png', 
+        category: 'parlantes',
+        description: 'ALTAVOZ BLUETOOTH PORTÁTIL WEKOME D46 PHANTOM'
       },
     ],
     telefonos: [
@@ -106,11 +138,16 @@ const NexusCRStore = () => {
   };
 
   const sendWhatsAppOrder = () => {
-    const message = cart.map(item => 
-      `${item.name} x${item.quantity} - ₡${(item.price * item.quantity).toLocaleString()}`
-    ).join('%0A');
+    let message = '¡Hola! Quiero hacer un pedido:%0A%0A';
+    
+    cart.forEach(item => {
+      message += `${item.name} x${item.quantity} - ₡${(item.price * item.quantity).toLocaleString()}%0A`;
+    });
+    
     const total = getTotal();
-    const whatsappUrl = `https://wa.me/message/VI24NAWWORQGM1?text=¡Hola! Quiero hacer un pedido:%0A%0A${message}%0A%0ATotal: ₡${total.toLocaleString()}`;
+    message += `%0ATotal: ₡${total.toLocaleString()}`;
+    
+    const whatsappUrl = `https://wa.link/send?phone=50688429346&text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
