@@ -147,7 +147,7 @@ const NexusCRStore = () => {
     const total = getTotal();
     message += `%0ATotal: ₡${total.toLocaleString()}`;
     
-    const whatsappUrl = `https://wa.me/message/VI24NAWWORQGM1?text=${message}`;
+    const whatsappUrl = `https://wa.me/50671157005?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
