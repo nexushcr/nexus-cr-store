@@ -115,9 +115,38 @@ const NexusCRStore = () => {
       { id: 9, name: 'Webcam HD 1080p', price: 28000, image: '📷', category: 'computadoras' },
     ],
     wellness: [
-      { id: 10, name: 'Masajeador Cervical', price: 22000, image: '💆', category: 'wellness' },
-      { id: 11, name: 'Bola Anti-Estrés', price: 5000, image: '⚪', category: 'wellness' },
-      { id: 12, name: 'Difusor Aromas', price: 15000, image: '🕯️', category: 'wellness' },
+      { 
+        id: 12, 
+        name: 'R4102W', 
+        price: 4500, 
+        image: '/productos/13.jpg', 
+        category: 'wellness',
+        description: 'REMOVEDOR QUITA PELUSAS ELÉCTRICO PORTÁTIL RAF R 4102W'
+      },
+      { 
+        id: 13, 
+        name: 'R10028', 
+        price: 7560, 
+        image: '/productos/14.jpg', 
+        category: 'wellness',
+        description: 'BÁSCULA DE BAÑO RAF, ELECTRÓNICA BLUETOOTH BMI SMART BODY FAT, PANTALLA LCD'
+      },
+      { 
+        id: 14, 
+        name: 'WJ12', 
+        price: 4750, 
+        image: '/productos/15.png', 
+        category: 'wellness',
+        description: 'AFEITADORA WINMAX J12, DETALLA Y CONTORNO, INALAMBRICA'
+      },
+      { 
+        id: 15, 
+        name: 'AMS0022', 
+        price: 15900, 
+        image: '/productos/16.jpg', 
+        category: 'wellness',
+        description: 'PISTOLA DE MASAJE, INALAMBRICA, FUNCION DE CALOR, ALTA FRECUENCIA, INCLUYE VARIOS CABEZALES'
+      },
     ],
   };
 
