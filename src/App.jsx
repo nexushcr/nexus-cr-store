@@ -92,9 +92,22 @@ const NexusCRStore = () => {
       },
     ],
     telefonos: [
-      { id: 4, name: 'Funda Premium iPhone', price: 8500, image: '📱', category: 'telefonos' },
-      { id: 5, name: 'Cargador Inalámbrico', price: 12000, image: '🔌', category: 'telefonos' },
-      { id: 6, name: 'Audífonos Bluetooth', price: 25000, image: '🎧', category: 'telefonos' },
+      { 
+        id: 10, 
+        name: 'CCT0127', 
+        price: 5200, 
+        image: '/productos/11.jpg', 
+        category: 'telefonos',
+        description: 'CARGADOR PARA CELULAR TYPEC/LIGHTNING PZX P13'
+      },
+      { 
+        id: 11, 
+        name: 'AAC0005', 
+        price: 4800, 
+        image: '/productos/12.jpg', 
+        category: 'telefonos',
+        description: 'MAGSAFE WALLET APPLE'
+      },
     ],
     computadoras: [
       { id: 7, name: 'Mouse Gaming RGB', price: 18000, image: '🖱️', category: 'computadoras' },
