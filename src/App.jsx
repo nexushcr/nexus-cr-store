@@ -194,7 +194,7 @@ const NexusCRStore = () => {
     const total = getTotal();
     message += `%0ATotal: ₡${total.toLocaleString()}`;
     
-    const whatsappUrl = `https://wa.me/50671157005?text=${message}`;
+    const whatsappUrl = `https://wa.me/50672376977?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -361,7 +361,7 @@ const NexusCRStore = () => {
             <div className="grid md:grid-cols-2 gap-6">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/message/VI24NAWWORQGM1"
+                href="https://wa.me/message/IM5YV3EWA4WNP1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-slate-800/50 backdrop-blur-sm border border-green-500/30 rounded-xl p-8 hover:border-green-500/60 transition-all hover:scale-105 group"
