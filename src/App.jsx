@@ -289,26 +289,44 @@ const NexusCRStore = () => {
         {currentCategory === 'inicio' ? (
           <div className="space-y-12">
             {/* Hero Section */}
-            <div className="text-center py-12">
-              <div className="inline-block mb-4 px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full">
-                <Package className="inline-block text-cyan-400 mr-2" size={20} />
-                <span className="text-cyan-300 font-semibold">Tienda 100% Virtual</span>
-              </div>
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-orange-400 bg-clip-text text-transparent">
-                  Periféricos Tecnológicos
-                </span>
-              </h1>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-6">
-                Tu destino para tecnología, accesorios y productos de bienestar
-              </p>
-              <div className="flex items-center justify-center space-x-2 text-sm text-gray-400">
-                <MapPin size={16} className="text-cyan-400" />
-                <span>Envíos a toda Costa Rica</span>
-              </div>
-            </div>
+<div className="text-center py-4"> {/* antes py-6 o py-12 */}
+  {/* Logo con fondo degradado */}
+  <div className="flex justify-center mb-2"> {/* antes mb-3 o mb-6 */}
+    <div className="relative">
+      <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/30 to-orange-500/30 blur-xl rounded-full"></div>
+      <img
+        src="/logo-hero.png"
+        alt="Logo de NEXUS CR"
+        className="relative max-w-full h-auto object-contain mx-auto transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
+      />
+    </div>
+  </div>
 
-            {/* Category Grid */}
+  {/* Etiqueta destacada */}
+  <div
+    className="inline-flex items-center mb-2 px-4 py-2 bg-cyan-500/10 border border-cyan-500/30 rounded-full"
+    aria-label="Tienda 100% Virtual"
+  >
+    <Package className="text-cyan-400 mr-2" size={20} aria-hidden="true" />
+    <span className="text-cyan-300 font-semibold">Tienda 100% Virtual</span>
+  </div>
+
+  {/* Texto descriptivo */}
+  <p className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-2xl mx-auto mb-3 font-light">
+    Tu destino para tecnología, accesorios y productos de bienestar
+  </p>
+
+  {/* Ubicación/envíos */}
+  <div className="flex items-center justify-center space-x-2 text-sm md:text-base text-gray-400">
+    <MapPin size={18} className="text-cyan-400" aria-hidden="true" />
+    <span>Envíos a toda Costa Rica</span>
+  </div>
+</div>
+
+
+
+
+          {/* Category Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {categories.slice(1, -1).map(cat => (
                 <button
