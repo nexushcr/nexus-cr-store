@@ -110,9 +110,14 @@ const NexusCRStore = () => {
       },
     ],
     computadoras: [
-      { id: 7, name: 'Mouse Gaming RGB', price: 18000, image: '🖱️', category: 'computadoras' },
-      { id: 8, name: 'Teclado Mecánico', price: 35000, image: '⌨️', category: 'computadoras' },
-      { id: 9, name: 'Webcam HD 1080p', price: 28000, image: '📷', category: 'computadoras' },
+      { 
+        id: 16, 
+        name: 'ST983', 
+        price: 14100, 
+        image: '/productos/17.jpg', 
+        category: 'computadoras',
+        description: 'WIFI SMART CAMARA, EDICION PTZ 360°, ST-983'
+      },
     ],
     wellness: [
       { 
