@@ -289,15 +289,15 @@ const NexusCRStore = () => {
         {currentCategory === 'inicio' ? (
           <div className="space-y-12">
             {/* Hero Section */}
-<div className="text-center py-4"> {/* antes py-6 o py-12 */}
+<div className="text-center py-4">
   {/* Logo con fondo degradado */}
-  <div className="flex justify-center mb-2"> {/* antes mb-3 o mb-6 */}
-    <div className="relative">
+  <div className="flex justify-center mb-2">
+    <div className="relative ml-18"> {/* <-- margen izquierdo para empujar el logo a la derecha */}
       <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/30 to-orange-500/30 blur-xl rounded-full"></div>
       <img
         src="/logo-hero.png"
         alt="Logo de NEXUS CR"
-        className="relative max-w-full h-auto object-contain mx-auto transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
+        className="relative max-w-[800px] h-auto object-contain transform hover:scale-105 transition-transform duration-500 drop-shadow-2xl"
       />
     </div>
   </div>
@@ -322,9 +322,6 @@ const NexusCRStore = () => {
     <span>Envíos a toda Costa Rica</span>
   </div>
 </div>
-
-
-
 
           {/* Category Grid */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
