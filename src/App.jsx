@@ -103,7 +103,7 @@ const NexusCRStore = () => {
       { 
         id: 11, 
         name: 'AAC0005', 
-        price: 4800, 
+        price: 3800, 
         image: '/productos/12.jpg', 
         category: 'telefonos',
         description: 'MAGSAFE WALLET APPLE'
