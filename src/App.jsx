@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Menu, X, Speaker, Smartphone, Monitor, Heart, Lock, Phone, Mail, Instagram, MapPin, Package } from 'lucide-react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 const NexusCRStore = () => {
   const [cart, setCart] = useState([]);
