@@ -590,6 +590,7 @@ const NexusCRStore = () => {
           </div>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
