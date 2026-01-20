@@ -1,0 +1,132 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "XO-F55",
+      "precio": 45176,
+      "imagen": "/productos/1.png",
+      "categoria": "parlantes",
+      "descripcion": "PARLANTE BLUETOOTH WOOFER DUAL XO-F55 8 PULGADAS RGB 20W"
+    },
+    {
+      "id": 2,
+      "nombre": "PPB0168",
+      "precio": 15300,
+      "imagen": "/productos/3.jpg",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOCES BLUETOOTH PORTÁTILES CON LUCES COLOR NEGRO"
+    },
+    {
+      "id": 3,
+      "nombre": "PPB0156",
+      "precio": 25574,
+      "imagen": "/productos/4.jpg",
+      "categoria": "parlantes",
+      "descripcion": "BOXE PORTABILE BLUETOOTH - WK DESIGN D33 BLACK"
+    },
+    {
+      "id": 4,
+      "nombre": "PPB0171",
+      "precio": 17780,
+      "imagen": "/productos/5.png",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOZ PORTATIL BLUETOOTH - WEKOME D8"
+    },
+    {
+      "id": 5,
+      "nombre": "PPB0164",
+      "precio": 11800,
+      "imagen": "/productos/6.jpg",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOZ INALAMBRICO PORTATIL AZEADA PD-S108 MEIKA"
+    },
+    {
+      "id": 6,
+      "nombre": "PPB0152",
+      "precio": 29300,
+      "imagen": "/productos/7.png",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOZ WEKOME D57 BLUETOOTH SPEAKER - WEKOME"
+    },
+    {
+      "id": 7,
+      "nombre": "PPB0155",
+      "precio": 14200,
+      "imagen": "/productos/8.png",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOZ BLUETOOTH PORTÁTIL PULSE 4 MINI CON SONIDO 360º Y LUCES LED RGB"
+    },
+    {
+      "id": 8,
+      "nombre": "PPB0154",
+      "precio": 14300,
+      "imagen": "/productos/9.jpg",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOZ WEKOME D29 PORTABLE BLUETOOTH SPEAKER"
+    },
+    {
+      "id": 9,
+      "nombre": "PPB0153",
+      "precio": 15100,
+      "imagen": "/productos/10.png",
+      "categoria": "parlantes",
+      "descripcion": "ALTAVOZ BLUETOOTH PORTÁTIL WEKOME D46 PHANTOM"
+    },
+    {
+      "id": 10,
+      "nombre": "CCT0127",
+      "precio": 5200,
+      "imagen": "/productos/11.jpg",
+      "categoria": "telefonos",
+      "descripcion": "CARGADOR PARA CELULAR TYPEC/LIGHTNING PZX P13"
+    },
+    {
+      "id": 11,
+      "nombre": "AAC0005",
+      "precio": 3800,
+      "imagen": "/productos/12.jpg",
+      "categoria": "telefonos",
+      "descripcion": "MAGSAFE WALLET APPLE"
+    },
+    {
+      "id": 16,
+      "nombre": "ST983",
+      "precio": 14100,
+      "imagen": "/productos/17.jpg",
+      "categoria": "computadoras",
+      "descripcion": "WIFI SMART CAMARA, EDICION PTZ 360°, ST-983"
+    },
+    {
+      "id": 12,
+      "nombre": "R4102W",
+      "precio": 4500,
+      "imagen": "/productos/13.jpg",
+      "categoria": "wellness",
+      "descripcion": "REMOVEDOR QUITA PELUSAS ELÉCTRICO PORTÁTIL RAF R 4102W"
+    },
+    {
+      "id": 13,
+      "nombre": "R10028",
+      "precio": 7560,
+      "imagen": "/productos/14.jpg",
+      "categoria": "wellness",
+      "descripcion": "BÁSCULA DE BAÑO RAF, ELECTRÓNICA BLUETOOTH BMI SMART BODY FAT, PANTALLA LCD"
+    },
+    {
+      "id": 14,
+      "nombre": "WJ12",
+      "precio": 4750,
+      "imagen": "/productos/15.png",
+      "categoria": "wellness",
+      "descripcion": "AFEITADORA WINMAX J12, DETALLA Y CONTORNO, INALAMBRICA"
+    },
+    {
+      "id": 15,
+      "nombre": "AMS0022",
+      "precio": 15900,
+      "imagen": "/productos/16.jpg",
+      "categoria": "wellness",
+      "descripcion": "PISTOLA DE MASAJE, INALAMBRICA, FUNCION DE CALOR, ALTA FRECUENCIA, INCLUYE VARIOS CABEZALES"
+    }
+  ]
+}
